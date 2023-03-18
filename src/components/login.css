@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: "CustomFont";
+}
+
+.page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.covers{
+    background-color: black;
+    width: 30em;
+    height: 35em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.covers:hover{
+    color: blue;
+    cursor: pointer;
+}
+.alt-login{
+    width: 80%;
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+.alt-login div{
+    width: 45%;
+    height: 90%;
+    border-radius: 0.25em;
+    /* background-color: black; */
+    background-position: center;
+    background-size: contain;
+    background: no-repeat;
+    cursor: pointer;
+}
+input{
+    border: none;
+    /* background-color: rgb(229, 226,226); */
+    height: 3em;
+    width: 80%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 2em;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+input:focus{
+    outline-color: rgb(32, 177, 255);
+}
+.login-btn{
+    width: 20%;
+    height: 3em;
+    background-color: rgb(32, 177, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border: 0.25em;
+    cursor: pointer;
+}
+.login-btn:hover{
+    transform: scale(1.25);
+    background-color: orange;
+}
+.text{
+    position: relative;
+    bottom: -2em;
+}
+.hide{
+    position: absolute;
+    transform: scale(0);
+
+}
+.login-popup{
+    position: absolute;
+    height: 30em;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.25em;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    transform: scale(1);
+    transition: 1.5s;
+}
+.facebook {
+    font-size: 3rem;
+    padding-bottom: 20%;
+    /* height: 10px;
+    width: 20px; */
+    background-color: black;
+    /* margin-left: 10px;
+    padding-left: 40px; */
+
+}
+.google{
+font-size: 3rem;
+background-color: blue;
+}
+body{
+    background-image: url("https://th.bing.com/th/id/OIP.0M0uDujoYiy54j0gAr11UAHaEF?pid=ImgDet&rs=1");
+    background-size: cover;
+}
+.twitter{
+    font-size: 3rem;
+    background-color: black;
+}
+.linkdin{
+    font-size: 3rem;
+}
+.facebook:hover{
+    color: orange;
+    transition: 1.5s;
+    transform: scale(1.25);
+
+}
+.google:hover{
+    color: orange;
+    transition: 1.5s;
+    transform: scale(1.25);
+
+}
+.twitter:hover{
+    color: orange;
+    transition: 1.5s;
+    transform: scale(1.25);
+
+}
+.linkdin:hover{
+    color: orange;
+    /* transform: scale(1); */
+    transition: 1.5s;
+    transform: scale(1.25);
+}
+.form-check-label{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.form-check-input{
+    font-size: small;
+}
+.checkbox{
+    width: 30px;
+    height: 30px;
+margin-left: 50px;
+}
+h3{
+    width: auto;
+    height: auto;
+    padding-left: 20px;
+}
+.check{
+width: auto;
+height: auto;
+display: flex;
+margin-right: 300px;
+
+}
